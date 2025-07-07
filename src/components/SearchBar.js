@@ -14,18 +14,7 @@ function SearchBar() {
 //   }, []);
   return (
     <div>
-      <p>Count is: {count}</p>
-      <button onClick={ () => setCount(count + 1)}>Increment</button>
-      {/* {loading ? <p>loading</p> : (
-        <ul>
-             {users.map((user) => (
-            <li key={user.id}>{user.name}</li>
-          ))}
-        </ul>
-      )} */}
-      <ul>
-        
-      </ul>
+     
     </div>
   );
 }
