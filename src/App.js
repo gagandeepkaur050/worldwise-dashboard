@@ -1,6 +1,7 @@
 import './App.css';
 import SearchBar from './components/SearchBar';
 import Weather from './components/WeatherWidget';
+import News from './components/NewsList';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <p>Welcome! Let's build a news & weather app.</p>
             <SearchBar />
             <Weather city="London" />
+            <News /> 
 
     </div>
   );
