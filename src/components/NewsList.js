@@ -61,7 +61,9 @@ function News() {
                 )}
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{article.title}</h5>
-                  <p className="card-text flex-grow-1">{article.description}</p>
+                  <p className="card-text flex-grow-1">{article.description?.split(" ")
+    .slice(0, 20)
+    .join(" ") + (article.description?.split(" ").length > 20 ? "..." : "")}</p>
                   <small className="text-muted">{article.source_id}</small>
                   <a
                     href={article.link}

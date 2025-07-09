@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <h1>WorldWise Dashboard</h1>
-      <p>Welcome! Let's build a news & weather app.</p>
       <div className='container'>
         <div className='row'>
           <div className='col-md-8'>
